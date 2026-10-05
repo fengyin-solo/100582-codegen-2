@@ -18,6 +18,7 @@ const Floodwarn = () => import('@/views/floodwarn/index.vue')
 const Rescueteam = () => import('@/views/rescueteam/index.vue')
 const Drainequipment = () => import('@/views/drainequipment/index.vue')
 const Cctvinspect = () => import('@/views/cctvinspect/index.vue')
+const Restock = () => import('@/views/restock/index.vue')
 const Dispatchplan = () => import('@/views/dispatchplan/index.vue')
 
 const router = createRouter({
@@ -41,6 +42,7 @@ const router = createRouter({
     { path: '/rescueteam', name: 'rescueteam', component: Rescueteam },
     { path: '/drainequipment', name: 'drainequipment', component: Drainequipment },
     { path: '/cctvinspect', name: 'cctvinspect', component: Cctvinspect },
+    { path: '/restock', name: 'restock', component: Restock },
     { path: '/dispatchplan', name: 'dispatchplan', component: Dispatchplan },
   ],
 })
