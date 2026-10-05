@@ -35,3 +35,12 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .error-text { color: #b42318; }
 .status-legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 10px; font-size: 12px; color: var(--muted); }
 .legend-item { background: #eef2f7; border-radius: 999px; padding: 2px 10px; }
+.ok-text { color: #067647; }
+.diff-text { color: #b42318; font-weight: 600; }
+.locked-text { color: var(--muted); font-size: 12px; }
+.create-bar { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; }
+.form-hint { color: var(--muted); font-size: 12px; }
+.panel-row td { background: #f8fafc; }
+.panel-form { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; }
+.stock-panel { margin-top: 20px; }
+.panel-title { margin: 0 0 4px; font-size: 15px; }
